@@ -27,17 +27,20 @@ function createCard(app) {
 
 function createCardFooter(app) {
     const cardFooter = createCustomElement("div", "card-footer border-0");
+    const textLine = createCustomElement("h5", "");
+
     const hasAppStoreLink = (app.appStoreLink != "");
     const hasGitHubLink = (app.gitHubLink != "");
 
     if (hasAppStoreLink) {
-        cardFooter.appendChild(createLink(app.appStoreLink, "App Store"));   
+        textLine.appendChild(createLink(app.appStoreLink, "App Store"));   
     }
 
     if (hasGitHubLink) {
-        cardFooter.appendChild(createLink(app.gitHubLink, "GitHub", hasAppStoreLink));
+        textLine.appendChild(createLink(app.gitHubLink, "GitHub", hasAppStoreLink));
     }
 
+    cardFooter.appendChild(textLine);
     return cardFooter;
 
 }

@@ -3,7 +3,7 @@ const apps = [
         name: "Purple Notebook",
         description: "The Purple Notebook is an app built from students to students. An app thought to be the best notes app for students, created in a way to make note taking easier and faster during class. Using Apple's Vision framework, students can even create notes from pictures they've taken.",
         roles: "Code QA and Developer",
-        development: "UIKit, View Code, MacCatalyst, Vision, CoreData, CloudKit",
+        development: "UIKit, View Code, macCatalyst, Vision, CoreData, CloudKit",
         appStoreLink: "https://apps.apple.com/us/app/purple-notebook/id1535269503",
         gitHubLink: "https://github.com/Pepelelipa/MacroChallenge",
         imagePath: "./assets/purplenotebook.png",
