@@ -13,7 +13,7 @@ const apps = [
         name: "Generate",
         description: "Generate is a screen saver application for Apple TV that exhibit generative artwork. Thinking about encouraging people to know more about science. This app shows more information about who created the fractals and a little of their history. The user of the app can pause, take a print and can save different patterns of the art.",
         roles: "Developer",
-        development: "Metal, TVOS, UIKit, Storyboard and MVC",
+        development: "Metal, tvOS, UIKit, Storyboard and MVC",
         appStoreLink: "https://apps.apple.com/br/app/generate/id1524091697",
         gitHubLink: "https://github.com/guienes/ArteGenerativa-AppleTV",
         imagePath: "./assets/generate.png",
@@ -53,11 +53,11 @@ const apps = [
         name: "Hora do almoço",
         description: "With this app for the Apple Watch, you can receive daily sugestions of new places to eat based on your preferences and proximity. This is a new way to choose where to go at lunch time!",
         roles: "Developer",
-        development: "WatchOS, UIKit and APIs",
+        development: "watchOS, UIKit and APIs",
         appStoreLink: "https://apps.apple.com/br/app/hora-do-almo%C3%A7o/id1503252410",
         gitHubLink: "",
         imagePath: "./assets/horadoalmoco.png",
-        platforms: "WatchOS"
+        platforms: "watchOS"
     },
     {
         name: "Diário de oração",
