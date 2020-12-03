@@ -61,7 +61,7 @@
 
         <!-- Portfolio -->
         <section id="portfolio" class="container">
-            <h1 style="padding: 10vh 0 3vh 0;">Portfolio</h1>
+            <h1 style="padding: 3vh 0;">Portfolio</h1>
         </section>
 
         <script>
@@ -76,9 +76,9 @@
                         var hash = this.hash;
         
                         $('html, body').animate({
-                            scrollTop: $(hash).offset().top
+                            scrollTop: $(hash).offset().top - $("nav").height()
                         }, 800, function() {
-                            window.location.hash = hash;
+                            window.location.hash = hash - $("nav").height();
                         });
                     }
                 });
