@@ -3,10 +3,10 @@ const apps = [
         name: "Purple Notebook",
         description: "The Purple Notebook is an app built from students to students. An app thought to be the best notes app for students, created in a way to make note taking easier and faster during class. Using Apple's Vision framework, students can even create notes from pictures they've taken.",
         roles: "Code QA and Developer",
-        development: "UIKit, View Code, macCatalyst, Vision, CoreData, CloudKit",
+        development: "UIKit, View Code, macCatalyst, VoiceOver",
         appStoreLink: "https://apps.apple.com/us/app/purple-notebook/id1535269503",
         gitHubLink: "https://github.com/Pepelelipa/MacroChallenge",
-        imagePath: "./assets/purplenotebook.png",
+        imagePath: "./assets/icons/purplenotebook.png",
         platforms: "iOS, iPadOS and macOS"
     },
     {
@@ -16,7 +16,7 @@ const apps = [
         development: "Metal, tvOS, UIKit, Storyboard and MVC",
         appStoreLink: "https://apps.apple.com/br/app/generate/id1524091697",
         gitHubLink: "https://github.com/guienes/ArteGenerativa-AppleTV",
-        imagePath: "./assets/generate.png",
+        imagePath: "./assets/icons/generate.png",
         platforms: "tvOS"
     },
     {
@@ -26,7 +26,7 @@ const apps = [
         development: "UIKit, Storyboard, VoiceOver, MVC and APIs",
         appStoreLink: "https://apps.apple.com/br/app/proficiente/id1480049565",
         gitHubLink: "https://github.com/LuizHMC/acessibilidade_mc3",
-        imagePath: "./assets/proficiente.png",
+        imagePath: "./assets/icons/proficiente.png",
         platforms: "iOS"
     },
     {
@@ -36,7 +36,7 @@ const apps = [
         development: "UIKit",
         appStoreLink: "",
         gitHubLink: "https://github.com/liakassardjian/Gravity",
-        imagePath: "./assets/gravity.png",
+        imagePath: "./assets/icons/gravity.png",
         platforms: "iOS"
     },
     {
@@ -46,7 +46,7 @@ const apps = [
         development: "UIKit, Storyboard, MVC and CoreData",
         appStoreLink: "https://apps.apple.com/br/app/festou/id1463869085?l=en",
         gitHubLink: "",
-        imagePath: "./assets/festou.png",
+        imagePath: "./assets/icons/festou.png",
         platforms: "iOS"
     },
     {
@@ -56,7 +56,7 @@ const apps = [
         development: "watchOS, UIKit and APIs",
         appStoreLink: "https://apps.apple.com/br/app/hora-do-almo%C3%A7o/id1503252410",
         gitHubLink: "",
-        imagePath: "./assets/horadoalmoco.png",
+        imagePath: "./assets/icons/horadoalmoco.png",
         platforms: "watchOS"
     },
     {
@@ -66,7 +66,7 @@ const apps = [
         development: "UIKit, Storyboard, MVC and CoreData",
         appStoreLink: "https://apps.apple.com/br/app/diário-de-oração/id1474562896",
         gitHubLink: "",
-        imagePath: "./assets/diario.png",
+        imagePath: "./assets/icons/diario.png",
         platforms: "iOS"
     },
     {
@@ -76,7 +76,7 @@ const apps = [
         development: "UIKit, Storyboard, MVC and APIs",
         appStoreLink: "https://apps.apple.com/us/app/kaligo/id1515977370",
         gitHubLink: "https://github.com/Kal1go/Kaligo",
-        imagePath: "./assets/kaligo.png",
+        imagePath: "./assets/icons/kaligo.png",
         platforms: "iOS"
     },
     {
@@ -86,7 +86,7 @@ const apps = [
         development: "Sprite Kit and AVFoundation",
         appStoreLink: "https://apps.apple.com/us/app/novo-oeste/id1492530457m",
         gitHubLink: "https://github.com/faguilhermo/wildWestGame",
-        imagePath: "./assets/novooeste.png",
+        imagePath: "./assets/icons/novooeste.png",
         platforms: "iOS"
     },
     {
@@ -96,7 +96,7 @@ const apps = [
         development: "ARKit and SceneKit",
         appStoreLink: "",
         gitHubLink: "https://github.com/andradejoaoh/ARKit/tree/developer",
-        imagePath: "./assets/react.png",
+        imagePath: "./assets/icons/react.png",
         platforms: "iOS"
     }
 ];

@@ -59,7 +59,7 @@ function createCardBody(app) {
     cardBody.appendChild(appDescription);
 
     cardBody.appendChild(createTextGroup("Roles", app.roles));
-    cardBody.appendChild(createTextGroup("Development", app.development));
+    cardBody.appendChild(createTextGroup("Applied technologies", app.development));
 
     return cardBody;
 }
