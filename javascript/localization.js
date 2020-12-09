@@ -34,5 +34,13 @@ const strings = {
     _contact: [
         "Contact me",
         "Fale comigo"
+    ],
+    _roles: [
+        "Roles",
+        "Responsabilidades"
+    ],
+    _technologies: [
+        "Applied technologies",
+        "Tecnologias aplicadas"
     ]
 }

@@ -52,6 +52,11 @@ function createCardFooter(app) {
 }
 
 function createCardBody(app) {
+    var langIndex = 0
+    if (lang == "pt") {
+        langIndex = 1
+    }
+
     const cardBody = createCustomElement("div", "card-body");
 
     const appName = createCustomElement("h3", "card-title");
@@ -64,8 +69,8 @@ function createCardBody(app) {
     appDescription.innerHTML = app.description;
     cardBody.appendChild(appDescription);
 
-    cardBody.appendChild(createTextGroup("Roles", app.roles));
-    cardBody.appendChild(createTextGroup("Applied technologies", app.development));
+    cardBody.appendChild(createTextGroup(strings["_roles"][langIndex], app.roles));
+    cardBody.appendChild(createTextGroup(strings["_technologies"][langIndex], app.development));
 
     return cardBody;
 }
