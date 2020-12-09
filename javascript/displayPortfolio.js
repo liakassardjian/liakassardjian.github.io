@@ -1,9 +1,14 @@
 function displayPortfolio() {
+    var langIndex = 0
+    if (lang == "pt") {
+        langIndex = 1
+    }
+
     const section = document.getElementById("portfolio");
     const row = createCustomElement("div", "row"); 
 
     for (var i = 0; i < apps.length; i++) {
-        row.appendChild(createCard(apps[i]));
+        row.appendChild(createCard(apps[i][langIndex]));
     }
 
     section.appendChild(row);
@@ -31,6 +36,7 @@ function createCardFooter(app) {
 
     const hasAppStoreLink = (app.appStoreLink != "");
     const hasGitHubLink = (app.gitHubLink != "");
+    const hasYoutubeLink = (app.youtubeLink != "");
 
     if (hasAppStoreLink) {
         textLine.appendChild(createLink(app.appStoreLink, "App Store"));   
