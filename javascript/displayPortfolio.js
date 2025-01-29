@@ -46,6 +46,10 @@ function createCardFooter(app) {
         textLine.appendChild(createLink(app.gitHubLink, "GitHub", hasAppStoreLink));
     }
 
+    if (hasYoutubeLink) {
+        textLine.appendChild(createLink(app.youtubeLink, "Demo", hasAppStoreLink || hasGitHubLink));
+    }
+
     cardFooter.appendChild(textLine);
     return cardFooter;
 
